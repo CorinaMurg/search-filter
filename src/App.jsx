@@ -12,6 +12,19 @@ function App() {
   const [searchPoem, setSearchPoem] = useState('')
   const [filteredPoems, setFilteredPoems] = useState(poems)
 
+  //const [filteredPoems, setFilteredPoems] = useState([])
+  // const [poems, setPoems] = useState([])
+  // useEffect(() => {
+  //   fetch('https://dummyjson.com/users')
+  //     .then(response => response.json())
+  //     .then(data => {
+  //       setApiPoems(data.poems)
+  //       // update the filteredUsers state on first render
+  //       setFilteredPoems(data.poems)
+  //     })
+  //     .catch(err => console.log(err))
+  // }, [])
+
   const handleInputChange = (e) => { 
     const searchTerm = e.target.value;
     setSearchPoem(searchTerm)
