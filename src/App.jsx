@@ -1,10 +1,12 @@
 import { useState } from 'react'
 
+// https://dev.to/alais29/building-a-real-time-search-filter-in-react-a-step-by-step-guide-3lmm
+
 const poems = [
   { title: "My Dark Horses", id: 1 },
   { title: "Poem in October", id: 2 },
   { title: "Acquainted with the Night", id: 3 },
-  { title: "The Love Song of J. Alfred Prufrockd", id: 4 },
+  { title: "The Love Song of J. Alfred Prufrock", id: 4 },
   { title: "A Recovered Memory of Water", id: 5 },
   
 ]
